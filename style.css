@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#navigation{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(5, 5, 5, 0.616);
+    font-family: proxima-nova, sans-serif;
+    color:#fff;
+}
+
+#logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color:#fff;
+
+}
+
+#menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+}
+
+#menu h5{
+    font-weight: 600;
+
+}
+
+#logo h5{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#logo i{
+    font-size: 35px;
+}
+
+#background h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #fff;
+    font-size: 70px;
+    font-family: proxima-nova, sans-serif;
+    padding-top: 30px;
+
+}
+
+#button1{
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 0px solid ;
+    border-radius: 25px;
+    background-color: #1DB954;
+    color:white;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-size: 11px; 
+}
+
+#button2{
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid ;
+    border-radius: 25px;
+    background-color: transparent;
+    color:white;
+    border-color: #fff;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-size: 11px; 
+}
+
+#button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 400px;
+}
+
+#slide2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#box1{
+    position: relative;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 100%;
+    padding-top: 35px;
+    padding-left: 35px;
+    font-family: proxima-nova, sans-serif;
+}
+
+#box2{
+    width: 50%;
+    height: 100%;
+    margin: 60px;
+    background-image: url(https://images.unsplash.com/photo-1595491542937-3de00ac7e08a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+    background-size: cover;
+}
+
+#box1 h1{
+    font-size: 40px;
+    font-weight: 750;
+    color: rgb(66, 66, 66);
+
+}
+
+#box1 p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(66, 66, 66, 0.644);
+
+}
